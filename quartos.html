@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Quartos</title>
+    <link rel="shortcut icon" href="./Imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="StyleHotel.css">
+    <script src="HotelJS.js"></script>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><a id="logo-link" href="home.html">12Quartos</a></h2>
+        <nav class="navigation">
+            <a href="#">Promoções</a>
+            <a href="./quemsomos.html">Quem somos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <div class="explicacao">
+        <p>*Tela de seleção do quarto, solicita em qual quarto o cliente deseja se hospedar.</p>
+    </div>
+
+    <main>
+        <div class="containerQuartos">
+            <h1>Selecione seu quarto</h1>
+            <div class="selecaoquartos">
+                <div class="coluna1">
+                    <div class="quarto vago" data-status="Vago" onclick="escolherQuarto(this)">Quarto 1</div>
+                    <div class="quarto ocupado" data-status="Ocupado" onclick="escolherQuarto(this)">Quarto 2</div>
+                    <div class="quarto ocupado" data-status="Ocupado" onclick="escolherQuarto(this)">Quarto 3</div>
+                </div>
+                <div class="coluna2">
+                    <div class="quarto vago" data-status="Vago" onclick="escolherQuarto(this)">Quarto 4</div>
+                    <div class="quarto ocupado" data-status="Ocupado" onclick="escolherQuarto(this)">Quarto 5</div>
+                    <div class="quarto vago" data-status="Vago" onclick="escolherQuarto(this)">Quarto 6</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="rodape">
+            
+            <!-- Sessão de links -->
+            <div class="section">
+                <h1 class="TextoSessao">Sessão</h1>
+                <nav class="sessao">
+                    <a href="./home.html">Início</a>
+                    <a href="#">Promoções</a>
+                    <a href="./quemsomos.html">Quem somos</a>
+                    <a href="#">Contato</a>
+                </nav>
+            </div>
+        </div>
+        <hr>
+        <!-- Creditos -->
+        <div class="creditos">
+            Muriel, Kaynan, Carlos Eduardo, Cauã, Rafael. 2024
+        </div>
+    </footer>
+</body>
+</html>
